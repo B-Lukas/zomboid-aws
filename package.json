@@ -1,0 +1,28 @@
+{
+  "name": "zomboid-aws",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "lint": "eslint . --ext .ts",
+    "deploy": "cdk deploy",
+    "diff": "cdk diff",
+    "synth": "cdk synth"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.152.0",
+    "constructs": "^10.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.x.x",
+    "@types/node": "^18.x.x",
+    "jest": "^29.x.x",
+    "ts-jest": "^29.x.x",
+    "typescript": "^5.x.x",
+    "eslint": "^8.x.x",
+    "eslint-plugin-import": "^2.x.x",
+    "eslint-plugin-node": "^11.x.x"
+  }
+}
+
